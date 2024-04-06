@@ -16,5 +16,15 @@ void main() {
 
   //Remove from list 
   mixedList.removeAt(3);
-  print(mixedList)
+  print(mixedList);
+
+  // Maps
+  var myMap = {
+    'name': 'John',
+    'age': 25,
+    'city': 'New York'
+  };
+  
+
+  print(myMap['name']);
 }
